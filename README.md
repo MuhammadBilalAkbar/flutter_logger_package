@@ -154,7 +154,7 @@ final logger = Logger(
 - First property of logger.logLevel is `message` which is required. But second property `error` is
   optional in is logLevel.
   <br/>![](screenshots/logger_page_two.PNG)
-  <![](screenshots/logger_page_two%20(2).PNG)
+  ![](screenshots/logger_page_two%20(2).PNG)
 
 6. `logger_page_three.dart` uses `custom_logger.dart` in which we create our own custom logger.
 
