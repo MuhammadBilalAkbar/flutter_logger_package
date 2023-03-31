@@ -1,8 +1,24 @@
 ## 1. Research: Flutter Logger Package
 
 - Keywords:
-  - 
-- Video Title:
+    - logger package in flutter
+    - flutter logger example
+    - flutter logs command
+    - package: logging
+    - flutter logging best practices
+    - flutter log to logcat
+    - dart logging
+    - flutter log to console
+    - flutter logger to file
+    - flutter logger
+    - flutter log to console
+    - flutter developer log
+    - flutter log in release mode
+    - flutter print to console
+    - flutter print log
+    - flutter release log
+- Video Title: Logger Package in Flutter - Flutter print logs to console in debug and release mode
+  for developers
 
 ## 2. Research: Competitors
 
