@@ -21,12 +21,8 @@ class _LoggerPageTwoState extends State<LoggerPageTwo> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body: Center(
-          child: Text('Click on + button'),
-        ),
+        appBar: AppBar(title: Text(widget.title)),
+        body: Center(child: Text('Click on + button')),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             // 2nd property is optional

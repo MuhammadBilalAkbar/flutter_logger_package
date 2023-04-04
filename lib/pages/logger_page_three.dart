@@ -15,9 +15,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
+        appBar: AppBar(title: Text(widget.title)),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -26,9 +24,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
               Text('Click one by one to show logs in console'),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: () {
-                  log.v('Verbose log');
-                },
+                onPressed: () => log.v('Verbose log'),
                 child: Text('Verbose'),
                 style: Theme.of(context).elevatedButtonTheme.style?.copyWith(
                       backgroundColor:
@@ -37,9 +33,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
               ),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: () {
-                  log.d('Debug log');
-                },
+                onPressed: () => log.d('Debug log'),
                 child: Text('Debug'),
                 style: Theme.of(context).elevatedButtonTheme.style?.copyWith(
                       backgroundColor: MaterialStatePropertyAll(Colors.black),
@@ -47,9 +41,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
               ),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: () {
-                  log.i('Info log');
-                },
+                onPressed: () => log.i('Info log'),
                 child: Text('Info'),
                 style: Theme.of(context).elevatedButtonTheme.style?.copyWith(
                       backgroundColor:
@@ -58,9 +50,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
               ),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: () {
-                  log.w('Warning log');
-                },
+                onPressed: () => log.w('Warning log'),
                 child: Text('Warning'),
                 style: Theme.of(context).elevatedButtonTheme.style?.copyWith(
                       backgroundColor: MaterialStatePropertyAll(Colors.yellow),
@@ -68,9 +58,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
               ),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: () {
-                  log.e('Error log');
-                },
+                onPressed: () => log.e('Error log'),
                 child: Text('Error'),
                 style: Theme.of(context).elevatedButtonTheme.style?.copyWith(
                       backgroundColor: MaterialStatePropertyAll(Colors.red),
@@ -78,9 +66,7 @@ class _LoggerPageThreeState extends State<LoggerPageThree> {
               ),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: () {
-                  log.wtf('What a terrible failure log');
-                },
+                onPressed: () => log.wtf('What a terrible failure log'),
                 child: Text('WTF'),
                 style: Theme.of(context).elevatedButtonTheme.style?.copyWith(
                       backgroundColor: MaterialStatePropertyAll(Colors.purple),

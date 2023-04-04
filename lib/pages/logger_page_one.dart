@@ -15,12 +15,8 @@ class _LoggerPageOneState extends State<LoggerPageOne> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body: Center(
-          child: Text('Click on + button'),
-        ),
+        appBar: AppBar(title: Text(widget.title)),
+        body: Center(child: Text('Click on + button')),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             logger.v('Level.verbose');
